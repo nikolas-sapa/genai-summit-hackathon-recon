@@ -8,6 +8,7 @@
 > 52-agent deep recon on judges, sponsors, event mechanics, and the winning technical architecture. 56 notes in [`docs/`](docs/).
 
 **Start here:** [docs/START-HERE.md](docs/START-HERE.md) — the 8-note reading list (~25 min)
+**Prizes + build plan:** [PRIZES-AND-BUILD.md](PRIZES-AND-BUILD.md)
 **Pre-event checklist:** [CHECKLIST.md](CHECKLIST.md)
 
 ## Timeline
