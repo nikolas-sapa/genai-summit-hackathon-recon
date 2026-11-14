@@ -4,7 +4,7 @@ type: source
 tags: [hackathon, genai-summit, recon, sponsors]
 aliases: ["sponsor remaining"]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 status: active
 ---
 
@@ -90,3 +90,15 @@ Global nonprofit network for "high-impact entrepreneurs" (50+ markets, Greece ch
 1. **If a NOFire challenge brief drops at kickoff, it's the single best-aligned sponsor brief in the room** for an agent-infra build: policy-gated remediation agent on a live breaking stack. Pre-wire: allowed/needs-approval/denied action model + audit log + Slack approval UI + Brig or MCP mention.
 2. Endeavor/de Grey scoring = founder-potential lens: pitch the team + the 10x-shaped company hiding inside the project, not just the demo. Endeavor Catalyst is flushed with Greek LP money right now (Nov 2 close) — Greek-origin founder momentum is his exact brief.
 3. No new sponsors since first check; Cognition still unsigned → the Devin-harness exclusivity window is still open. Building visibly on Windsurf/Devin remains live.
+
+---
+
+## Nov-14 additions (freshness sweep)
+
+Partner list grew 13 → 16. Three names added publicly ~Nov 12:
+
+- **Google** → `sponsor-google.md` — in-kind "AI inference" credits on /credits; Google Cloud Day Athens ran Nov 10, same-week ecosystem push; likely DevRel-staffed table.
+- **Cloud Office** → `sponsor-cloud-office.md` — Premier Google Cloud Partner (Sofia HQ, Athens–Marousi office); hiring + market-entry play, no credits.
+- **SHAKE talent up** → `sponsor-shake-talent-up.md` — "Hackathon Hiring Partner"; Aspasia Gkotsi's boutique recruiter routing builders into Welcome Pickups/HarborLab-orbit clients.
+
+Notes: `/deck` now 404s in markdown mode (HTML still 200) — decks may be mid-pull; llms.txt still advertises Cognition + NOFire personalized decks, so both shadow deals read as still open.

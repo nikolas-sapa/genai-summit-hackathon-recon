@@ -4,7 +4,7 @@ type: source
 tags: [hackathon, genai-summit, recon, people]
 aliases: ["mentor taUle"]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 status: active
 ---
 
@@ -104,3 +104,36 @@ Hackathon partner list (confirmed on hackathon.polymath42.com): Quintessential, 
 3. **Kaizen sends a trio** (Ntovas engineer + Keramidas PM + Georgakopoulos DS) — if you get their table, that's a full product team reviewing your build for free.
 4. **Mentor→judge pipeline:** mentors advise then likely influence Sunday judging — the mentor who watched your agent recover a real error at 3pm is your best advocate at 6pm.
 5. **Speaker-list mentors skew Greek-local** — the SF/international execs (fal, Firecrawl, Parloa, ElevenLabs) may only appear for their talk slot; grab them at the stage door, not the mentor table.
+
+---
+
+## Nov-14 additions — freshness sweep vs Nov-10/11 baseline
+
+Re-scraped speakers-2026 on Nov 14: **150 speaker entries** now (vs ~115 at the Nov-10 scrape, 136 in the Nov-11 capture). ~35 added since Nov-10 — a Nov-10/11 wave (~21) and a Nov-12 batch (14). One removal: **Tey Bannerman** (was on Nov-11 list, gone) — significant because he was flagged in `judge-bannerman.md` as the likely "aura points" judge; a speaker-page delisting ≠ judge-panel removal (judges aren't necessarily speakers), but watch whether he shows at SNFCC. One rename: Georgios→Giorgos Goudelis. `?role=mentor` on the hackathon site shows only generic floor instructions ("walk the floor, help teams scope/unstuck; best window Sat 13:00–18:00") — still no named mentor assignments.
+
+### New Tier-1-caliber mentors (builders, dossier'd in `mentor-<slug>.md`)
+
+| Mentor | Role | Verified: what they actually build | Agent expertise (1 line) | Ask them for (hard-won intel) |
+|--------|------|------------------------------------|--------------------------|-------------------------------|
+| **Georgios Kontogiannis** | CTO SEE, Wonderful | Title sponsor's regional CTO; early employee, shaped global expansion playbook; co-founded/led software at Delian Alliance (defense autonomy); ex-Palantir, Bloomberg | Enterprise agents inside Greek corporates — the reference implementation of the sponsor's own thesis | What Wonderful's agents do in prod at OTE/Piraeus; their governance layer; he's the technical decision-maker above Tzortzopoulou — demo = audition. See `mentor-kontogiannis.md` |
+| **Rui Miguel Forte** | Engineering Director, Causaly | Engineering org behind biomedical KG+LLM platform (evidence-cited research); ex-GWI, Workable; "Mastering Predictive Analytics with R" author, MSc lecturer | Grounded, citation-grade AI for users who distrust black boxes | Trust/eval patterns for high-skepticism domains; when KG beats pure RAG. See `mentor-forte.md` |
+| **Petros Mandalis** | Cofounder & CTO, Proxy Foods AI | LLM/ML platform for food-formulation R&D; ex-Head of DS National Bank of Greece, ex-Accenture Analytics CoE; UniPi PhD + lecturer | Vertical AI where output must satisfy hard constraints, built by a tiny team | Founder-CTO speed tricks for a 36h build; constrained-generation patterns. See `mentor-mandalis.md` |
+| **Eliot Marcus** | Head of Agentic Commerce, Europe, Visa | Leads Visa's Europe rollout of agent-initiated payments (tokenized, scoped delegation); ex-Mastercard global network product head | Agent payments/delegated authority — the missing "last mile" of useful agents | Spend caps, consent scopes, agent-identity — if your agent transacts, his framework is untapped judge bait. See `mentor-marcus.md` |
+| **Alex Zacharopoulos** | Solutions Architect, AWS | Bio verbatim: "specializes in advanced agentic applications and next-generation developer tooling"; 15y infra/eng | Production agent architectures on AWS — orchestration, retries, guardrails, cost | What breaks first in customer agent builds; Bedrock/agent-infra shortcuts. See `mentor-zacharopoulos.md` |
+| **Achilleas Konstantzos** | CTO, CYGNUS Technologies | Runs SOC + R&D at Athens maritime-cybersec boutique: MDR, red teaming, adversary emulation; co-author BIMCO ship-cyber guidelines; NMIOTC contributor | Agents in adversarial environments (SOC triage, threat intel) + maritime domain depth | Which SOC tasks survive automation (pair w/ Soulas); red-team-your-agent checklist; maritime-vertical intel. See `mentor-konstantzos.md` |
+| **Dr. Saeed Aljaberi** | Director, AI Solutions & Workflows, Tactica AI | TII spinout's multi-domain agentic decision-support: GEOINT+OSINT+sensors fused, "mission defines the workflow" orchestration, HITL gates; deployed in real ops, demoed at Eurosatory | Outcome-first agent orchestration for mission-critical environments | Mission-layer decomposition (dynamic tool/data selection); oversight-gate design. See `mentor-aljaberi.md` |
+
+### New Tier-2 (plausible mentors)
+
+| Mentor | Role | Why plausible | Ask for |
+|--------|------|---------------|---------|
+| **Panos Tsigkourakos** | Head of Advanced Analytics & AI, Piraeus | Runs the bank's AI strategy/delivery/governance — incl. the Wonderful deployments mentor-table already flagged | What production agents at a Greek systemic bank actually look like; what their security review demanded |
+| **Christos Polydorou** | Customer Engineer, Infra Modernization & AI, Google | Hands-on Google CE — and Google just signed as partner ($100/builder credits) | Gemini/credits mechanics; his "data, backend, realistic strategy" deployment checklist |
+| **George Tsarouchas** | Founder & CEO, Dialectica | Built info-services co to 1,600 ppl/6 offices on AI-assisted knowledge work; exec now, builder origin | Scaling an AI-services product; Athens hiring/network |
+| **Christos Flevotomos** | CISO, Hellas Direct | 25y security, ISC2 Hellenic BoD, actively working AI-adoption/security angle | Security review of your agent before judges think of it |
+| **Pavlos Konstas** | Co-founder (stealth, clinical AI), Harvard i-Lab | Ex-IBM Enterprise AI UK&I leadership; now founding | Enterprise-AI delivery scars; clinical-AI track angle |
+| **Eleni Verteouri** | Founder, Financier Labs | Swiss fintech-AI founder (Forbes WiT 2024); small but builder | Finance-domain agents; Zurich fintech network |
+| **Alex Lambropoulos** | Head of Product, Relevance Digital | Hands-on: recommender systems, LLM tools in product/marketing workflows; co-founded Measurly/DelphiAI | LLM features that moved growth metrics — product-side agent framing |
+| Konstantina Syntila | President, ISC2 Hellenic Chapter | Security community head — talk-giver profile but useful for security-agent credibility | ISC2 community/network; agent-security framing |
+
+**Skipped new speakers (talk-givers, not builders):** Olga Kefalogianni (Minister of Tourism), Kyriakos Pierrakakis (minister), Prof. D. Anagnostopoulos (Ministry SecGen), Charalambos Tsekeris (bioethics chair), Antigoni Papanikolaou (Microsoft legal), Elias Vyzas (EY), Kyriakos Andreou (PwC), Dimitris Psarris (Bain), Giorgos Goudelis (PwC), Inachos Lazos (Piraeus advisor), Harry Margaritis (Piraeus COO), Nancy Zachariadou (Piraeus CSR), Danae Bezantakou (shipping CEO), Manos Chiou (ship-superintendent engineer — maritime ops, not AI), Dimitris Tryfon (Win Medica), Sofia Tountouri (ΣΕΛΠΕ), Elpida Fotografou (Accenture Song), Eleftherios Chaniotakis (AWS sales), Alex Schizas (Relevance CRO), Ioannis Michos (EPSILONNET CEO), Lucas Velidakis (Athens Voice). Dimitris Papadopoulos shows as new vs the Nov-11 file but was a scrape miss — already Tier 1 #11.

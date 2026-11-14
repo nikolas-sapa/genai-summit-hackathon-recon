@@ -4,7 +4,7 @@ type: source
 tags: [hackathon, genai-summit, recon, people]
 aliases: ["judges overview"]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 status: active
 ---
 
@@ -99,3 +99,24 @@ Speaker-list scan: Summit theme is explicitly post-experimentation — "deployme
 4. **Indie-builder/organizer** (Abed + sponsor Quintessential): craft, aura, no-slop UX, shipped-in-36-hours authenticity. The "aura points" criterion lives here — taste, originality, personality in the demo.
 
 **Composite winning project:** an agent that autonomously completes a genuinely tedious multi-step real job for a named persona (usefulness), built with clean craft and great UX (aura), demoed live working end-to-end (builder credibility), with a one-line eval/metric and cost math (researchers), and a plausible path to a real customer (VCs). Differentiators: specialized/fine-tuned or open-weights model component (Manos), human-expert-in-the-loop framing (Assael), verifiable/trust elements (Zindros), accessibility or Greek-context resonance (Abed, Felix, Sylvia).
+
+---
+
+## Nov-14 additions — judge-candidate dossiers written
+
+Site sweep on event day (Sat 14 Nov): hackathon site still publishes **no named judge list** — bench is invite-email based (agenda `?role=judge` notes now live: some judges attend Sun only, some Mon only, some both; voting via web app + AI-assisted submission review). No fresh public judge declarations found on LinkedIn/X since Nov 10 (LinkedIn authwalled to crawlers; Nitter dead — X C&D Sep 2026). Discord (discord.gg/gqU8FW45qf, created ~Nov 12-13) is member-verification gated — judge chatter likely inside, invisible outside.
+
+Six candidates flagged in Nov-11/12 deltas had no dossiers — now written:
+
+| Dossier | Who | Judge signal |
+|---|---|---|
+| [[judge-rasmussen]] | **Lars Rasmussen** (Florent VC / Google Maps co-founder / Panathēnea co-founder) | Luma featured guest; judged Florent×Panathēnea May 2026; mentor bench → near-certain |
+| [[judge-papadopoulos]] | **Panos Papadopoulos** (Partner, Marathon VC) | Volunteered on Ion's post; `?sponsor=marathon` overlay pending; Panathēnea bench |
+| [[judge-bellonia]] | **Marilena Velonia Bellonia** (GenAI Guardrails PO, Lloyds) | **Org team** + speaker → bench member; THE policy-gate judge |
+| [[judge-mallios]] | **Kostas Mallios** (ex-MSFT GM, ex-Applied Materials CVP) | Speaker + **Panathēnea board director** → org-side judge; ROI lens |
+| [[judge-tsirekas]] | **Mark Tsirekas** (Senior Staff PM, Meta) | Owns LLM-judges/evals at Meta scale — the eval-fluent judge |
+| [[judge-bannerman]] | **Tey Bannerman** (ex-McKinsey Partner, Head of Design Europe) | Speaker; the "aura points" judge — design craft on AI products |
+
+Already covered: **Georgios Kontogiannis** (Wonderful Site CTO SEE — Wonderful-Track judge) lives in [[wonderful-people]] §2. Unprofiled Ion-post volunteers (weaker, mentor-ambiguous — watchlist only): Orestis Skoutellas, hari chronis, Orlando Kalossakas, Adam Markakis, Spiros Economakis, Antonis Despotakis, Kai Hackbarth.
+
+**Fresh judge-mechanics facts (Nov 13-14 site state):** tracks published in /prep — Voice & Enterprise Agents (Wonderful), Biotech & AI (Athens LifeTech Park hosts), Content & Digital Art (fal), Open Track (hardware extra points). Track sponsors supply track judges → expect Wonderful (Kontogiannis), fal, and LifeTech Park delegates at Sunday semifinals. Judges choose the 4 finalists Sunday ~20:00 and final rankings Monday at Book Castle, SNFCC 18:00–18:50.
