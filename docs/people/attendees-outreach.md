@@ -13,7 +13,7 @@ status: active
 Compiled for outreach: everyone with recon evidence of attendance. `LinkedIn` = verified handle where found; blank = search name+org. `Hook` = the one line that makes the note personal (from dossiers — expand, don't copy verbatim).
 
 **Note skeleton (PG-short, 300-char cap for LinkedIn connect):**
-> Saw you'll be at the Gen AI Summit hackathon this weekend — I'll be building there too. [one specific line from Hook]. Would be great to meet at the venue. – Nikolas
+> Saw you'll be at the Gen AI Summit hackathon today — I'm building there too. [one specific line from Hook]. I'd be really happy to meet you at the venue today. – Nikolas
 
 ---
 
@@ -109,7 +109,8 @@ Ilias Pantazis · Dimitris Theodoropoulos · Vadim Gavrilov · Giannis Koutsoure
 
 ## How the outreach subagent should run it
 
-1. Filter to names the user doesn't already know.
-2. LinkedIn connect (300-char cap) — the skeleton above + ONE hook line personalized. Don't send to judges you might pitch Sunday before meeting in person? **Actually do send** — a connect note read at the venue is a warm intro, not spam.
-3. Prioritize Tier C sponsor tables + Tier B mentors — they're the least flooded and most useful (credits, briefs, jobs). Tier A judges get the most requests; a specific hook is mandatory.
-4. Sequence: send Friday night/Sat morning while acceptance is still pre-event.
+1. **Dedup first** — check each profile's connection degree. If already a 1st-degree connection, do NOT send a connect request again; skip or send a normal "see you at the venue today" message instead.
+2. Filter to names the user doesn't already know.
+3. LinkedIn connect (300-char cap) — the skeleton above + ONE hook line personalized. Don't send to judges you might pitch Sunday before meeting in person? **Actually do send** — a connect note read at the venue is a warm intro, not spam.
+4. Prioritize Tier C sponsor tables + Tier B mentors — they're the least flooded and most useful (credits, briefs, jobs). Tier A judges get the most requests; a specific hook is mandatory.
+5. Sequence: send before doors/kickoff while "see you today" still lands.
