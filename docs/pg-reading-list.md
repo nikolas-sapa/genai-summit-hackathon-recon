@@ -57,3 +57,31 @@ Distilled notes live in the vault at `03-Resources/pg-brain/` (25 notes, indexed
 | Top idea in your mind | Logistics done before doors; the build owns the ambient slot all weekend |
 | Superlinear returns | One polished interrogable demo > three features |
 | Write ideas into words | One-page spec before first commit — catches scope gaps pre-code |
+
+## PG → the actual mechanics here
+
+The recon converged on the same architecture PG would prescribe. Mapping his principles onto the specific intel:
+
+| PG principle | Where it lands in this recon |
+|---|---|
+| **Schlep blindness** (the good idea looks tedious) | The whole winning thesis — "an agent that does genuinely tedious multi-step real work" (judges-overview). The brief every team dodges as too boring IS the schlep everyone filtered. Pick the brief that makes other teams groan. |
+| **Do things that don't scale** | The demo plan itself: the judge pressing YOUR approval gate live (pitch-craft §demo), the outbound call to a judge's phone (voice lane). Unscalable theater = aura points. |
+| **Make something people want** | "Named persona + tedious real job" — the composite winner in judges-overview §Panel archetypes. Persona-first, not model-first. |
+| **Default alive** | Don't pick the Wonderful track if the idea has standalone value — Wonderful owns on-Platform output ([wonderful-terms](intel/wonderful-terms.md)). A hackathon team is default-alive iff it stays cheap and owns its repo. |
+| **18 mistakes — #18 half-hearted, #8 slow launch** | The semifinal gate is Sunday ~19:00, not Monday. Teams treating Sat night as "planning" die at the gate. Ship the ugly v1 by Sat evening. |
+| **Relentlessly resourceful** | Mentor windows Sat 13:00–18:00 are your resource — burn them. Dead API at hour 3? Reroute instantly (foam or granite, relentlessly-resourceful.md). |
+| **Taste for makers** | "No slop in the UX" is literally Quintessential's stated criterion. PG's redesign>design, ornament-is-evasion = the demo's 3 minutes: one flow, clean, no decoration. |
+| **Top idea in your mind** | The shuttle/gear/credits checklist done BEFORE doors — the build owns the ambient slot from 13:00. |
+| **Superlinear returns** | Winner-take-all finals: one polished interrogable demo (judges redirect it mid-run — abed-live.md) beats three features. Last 10% of quality buys the disproportionate outcome. |
+| **Putting ideas into words** | Judges get AI-generated notes on your repo — the README + demo video are "writing the idea down so a stranger gets it." Write the one-pager before the first commit. |
+| **How to work hard** | ~5h deep-work cap per person; push at starts/checks, uncapped mechanical grind overnight. Maker's schedule: batch mentor pulls at hour boundaries. |
+| **Relentlessly resourceful — team filter** | Pick teammates who reroute instantly at a dead API — the live filter from relres. |
+
+## PG → judge alignment
+
+| Judge archetype (judges-overview) | PG lens that persuades them |
+|---|---|
+| Frontier-lab researcher (Koukoumidis, Tsirekas, Zindros, Gianitsos) | Schlep + owned-intelligence: specialized model, evals, verifiability — real work, no wrapper |
+| VC (Apostolakis, Kalliagkopoulos, Rasmussen, Papadopoulos, Mallios) | Make-something-people-want + could-be-a-company-Monday: named persona, market wedge, monetization |
+| Enterprise adopter (Bellonia, Endeavor lens) | Default-alive + governance: policy gate, audit trail, "who pays and why Monday" |
+| Builder/organizer (Abed, Quintessential, Bannerman) | Taste + craft: interrogable demo, no slop, ship-in-36h authenticity = aura |
