@@ -7,10 +7,12 @@
 
 > 52-agent deep recon on judges, sponsors, event mechanics, and the winning technical architecture. 80 notes in [`docs/`](docs/).
 > **Nov-14 refresh:** +6 judge dossiers (Rasmussen, Papadopoulos/Marathon, Bellonia, Mallios, Tsirekas, Bannerman), +7 mentor dossiers (Kontogiannis/Wonderful-CTO, Forte, Mandalis, Marcus, Zacharopoulos, Konstantzos, Aljaberi), +3 sponsor dossiers (Google, Cloud Office, SHAKE), tracks+credits revealed, Wonderful IP terms analyzed, PG reading list. Ion Petropoulos out as co-organizer.
+> **Nov-16 outcome:** event concluded. FIREYE (wildfire command console — Sapalidis + Serat) reached the **finals, top 4 of 47 submissions**; podium Otty / Steptrace / Flux, all Open Track. Full retrospective: [OUTCOME.md](OUTCOME.md)
 
 **Start here:** [docs/START-HERE.md](docs/START-HERE.md) — the 8-note reading list (~25 min)
 **Prizes + build plan:** [PRIZES-AND-BUILD.md](PRIZES-AND-BUILD.md)
 **Pre-event checklist:** [CHECKLIST.md](CHECKLIST.md)
+**Outcome + retrospective:** [OUTCOME.md](OUTCOME.md) — results, what the recon called, what it missed
 
 ## Timeline
 
